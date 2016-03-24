@@ -66,14 +66,4 @@ Adobe Photoshop（アドビ　フォトショップ）は、WEBデザイン業�
  4. [HomeWork 1 - UIScrollView](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-3.1-UIScrollView)
 
 
-参考資料
------------------
-- [iOS Developer Library](https://developer.apple.com/library/ios/navigation/)
- - Guide から Reference まで全てのドキュメントが掲載されています。
-- [日本語ドキュメント](https://developer.apple.com/jp/devcenter/ios/library/japanese.html)
- - Guide の一部が日本語訳された PDF がアップロードされています。ただし、こちらは本家の最新の英語のドキュメントが翻訳されているとは限りません。更新日に注目してなるべく最新版のものを読むようにしましょう。
 
-LICENSE
------------------
-LICENSE CC BY-SA 3.0 http://creativecommons.org/licenses/by-sa/3.0/deed.ja  
-この資料はクリエイティブ・コモンズ 3.0 ライセンスの下に提供されています。  

@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="author" content="uetani-m/horino-h/2010 pc assist" />
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<title>Photoshop CC</title>
+
+<!-- InstanceEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script src="../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_effectBlind(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="container"> 
+   <h1><!-- InstanceBeginEditable name="ｈ1" -->第2章　設定と基本操作<!-- InstanceEndEditable --></h1>
+  <h2><!-- InstanceBeginEditable name="ｈ2" -->第5節　ビットマップ画像と解像度<!-- InstanceEndEditable --></h2>
+  <!-- InstanceBeginEditable name="contents" -->
+
+  <p>本節では、ビットマップ画像と呼ばれる画像形式と解像度の変更方法について学習します。 </p>
+
+  <h3>第1項　ビットマップ画像について</h3>
+  
+  <h4>この項で学習する内容</h4>
+  <ul>
+    <li class="list_top1"><strong>ビットマップ画像</strong>と<strong>ベクトル画像</strong>の違いについて理解する。</li>
+  </ul>
+
+  <h4>ビットマップ画像とは </h4>
+
+  <p><strong>ビットマップ画像</strong>とは<em>「ピクセル」</em>と呼ばれる四角い小さな点一つ一つに色を付け、<br />
+
+    その<em>「ピクセル」</em>を画像内に隙間なく無数に並べることで構成される画像のことを指します。<br />
+
+   フォトショップで作成された画像はこの<em>「ビットマップ画像」</em>として保存されます。</p>
+
+  <p><img src="images/02-05-01-01.jpg" width="550" height="367" /></p>
+
+  <p>上でも述べた通り、画像に配置されるすべての「ピクセル」に色を設定し画像を表示させているため、<br />
+
+    複雑な色の階調表示を可能にし、画像内の特定の色だけを抜き取り加工するといった操作が可能です。<br />
+
+    つまり写真などの加工・編集に非常に適した画像形式といえます。</p>
+
+  <p>ただし、画像内で使われる<strong>ピクセル総数が少ない</strong>とピクセルの<em>「アラ」</em>が目立ってしまいます。<br />
+
+    この<em>「アラ｣</em>はピクセル総数を増やせば目立たなくなりますが、<br />
+
+   その分ファイルサイズが増えてしまい、加工の際の処理が重くなるといった弊害が生じます。</p>
+  <p>このピクセル総数をPhotoshopでは<strong>画像解像度</strong>として設定しています。</p>
+
+  <h4>ベクトル画像とは  </h4>
+
+  <p>ビットマップ画像とは対照的に拡大しても<em>「ピクセル」</em>のアラが目立たない画像形式があります。<br />
+
+    <strong>ベクトル画像</strong>と呼ばれるものがそれに相当します。<br />
+
+   主に<em>「Illustrator（イラストレータ）」</em>で作成される画像形式が<em>「ベクトル画像」</em>になります。</p>
+
+  <p>仕組みとしては<em>「アンカーポイント」</em>と呼ばれる点を<em>「パス」</em>と呼ばれる線で結ぶことで、<br />
+
+    ポイント間の線の距離や角度、曲線の曲がり具合などを<br />
+   数値として計算して画像に変換表示させます。</p>
+  <p> ビットマップ画像のように点一つ一つを実際に描画するわけではないので、<br />
+
+    画像を拡大縮小したり変形しても、この点と線の位置関係を再計算して表示させるだけなので、<br />
+
+   理論上ビットマップのようなピクセルの「アラ」が表示されることはありません。</p>
+
+  <p><img src="images/02-05-01-02.jpg" width="550" height="367" /></p>
+
+  <p>ただし、この<strong>ベクトル画像</strong>はフォトショップのような複雑な色の表現や加工には不向きなため、<br />
+
+    どちらかといえばベタ塗りに近い色調を扱うイラストやロゴ、<br />
+   文字を多用するチラシ作成などに多く利用されています。<br />
+   （文字データはフォトショップでもベクトルデータとして扱われています） </p>
+   
+   <h4>この項のまとめ</h4>
+  <dl>
+    <dt>ビットマップ画像とは</dt>
+    <dd>・<em>「ピクセル」</em>と呼ばれる<strong>ドットの集合体</strong>で構成された画像。<br />
+    ・<em>「ピクセル」</em>一つひとつに個別に色を設定できるため、写真のような複雑な色調の画像が扱える。<br />
+    ・Photoshopで作られた画像は主にビットマップ画像として保存される。    <br />
+    ・ピクセルの総数が多い（画像解像度が高い）画像ほどきめ細かいが、ファイルサイズが大きくなる。</dd>
+    <dt>ベクトル画像とは</dt>
+    <dd>・<em>「アンカーポイント」</em>と<em>「パス」</em>と呼ばれる、<strong>点と線で描かれた画像</strong>。<br />
+    ・点と線の位置や距離、傾きなどを計算して画像を描画するため、非常にスムーズなラインが描ける。<br />
+    ・ビットマップ画像のような複雑な色調の画像にはあまり適していない。<br />
+    ・Illustratorで描かれた画像は主にベクトル画像として保存される。</dd>
+  </dl>
+<p>以上でこの項の学習は終了です。<br />
+  次の項へ進んでください。</p>
+<!-- InstanceEndEditable --></div>
+
+<div id="footer_area">
+Copyright &copy; 2013 <a href="http://www.winschool.jp" target="blanc">Winスクール</a>（ピーシーアシスト株式会社） All Rights Reserved.<br/>
+Copyright &copy; 2013 株式会社Win Labo. All Rights Reserved.
+</div> 
+  
+<!--<div class="ad_button" onclick="MM_effectBlind('side_area', 300, '100%', '0%', true)">  ＜情報スペース＞ <br />
+  表示/非表示は<br />
+ここをクリック</div>
+<br clear="right">
+<div id="side_area">
+<iframe src="http://www.winschool.jp/openschool/ad/dw_flash/side_area.html" width="140" height="800" scrolling="no" frameborder="0"></iframe>
+</div>-->
+</body>
+<!-- InstanceEnd --></html>

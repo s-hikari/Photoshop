@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="author" content="uetani-m/horino-h/2010 pc assist" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Photoshop CC</title>
+<!-- InstanceEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script src="../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_effectBlind(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="container"> 
+   <h1><!-- InstanceBeginEditable name="ｈ1" -->第4章　選択範囲<!-- InstanceEndEditable --></h1>
+  <h2><!-- InstanceBeginEditable name="ｈ2" -->第2節　選択範囲の応用<!-- InstanceEndEditable --></h2>
+  <!-- InstanceBeginEditable name="contents" -->
+  <p>本項では、ベクトルデータである<strong>パス</strong>と、<strong>パスを利用した選択範囲の作成</strong>を学習します。</p>
+  
+  <h3>第5項　パスを使った選択範囲の作成</h3>
+  
+  <h4>この項で学習する内容</h4>
+  <ul>
+    <li class="list_top1"><em>[ペンツール]</em>を使った<strong>パス</strong>の作成方法を習得する。</li>
+    <li class="list_top1">作成した<strong>パス</strong>を利用した選択範囲の作成方法を習得する。</li>
+  </ul>
+
+  <h4>ベクトルデータとパス</h4>
+  <p>以前に学習しましたが、Photoshopが扱う画像データは通常、<br />
+  ピクセルの集合体である<strong>ビットマップデータ</strong>として扱われます。</p>
+  <p>しかしながら、Illustratorのような<strong>アンカーポイント</strong>と呼ばれる点をつなぎ合わせ<br />
+    <strong>パス</strong>と呼ばれる線で描画する<strong>ベクトルデータ</strong>を扱うこともできます。<br />
+  このベクトルデータについては図形描画の項でも<strong>「シェイプレイヤー」</strong>として扱いましたが、<br />
+  この項では、ベクトルデータで描かれたパスを利用して選択範囲を作成する方法を学習します。  </p>
+  <h4>パスを利用する理由</h4>
+  <p>  通常、ピクセルの集合体である<strong>ビットマップデータ</strong>として描かれた画像は<br />
+  紙に鉛筆で描くのと同様に、形状を修正するためには[消しゴムツール]などで一旦消してから<br />
+  再度、描画しなおす必要があります。</p>
+  <p>それとは異なり、<strong>パス</strong>は<em>「アンカーポイント」</em>や<em>「ハンドル」</em>を操作し、シェイプ形状を作成します。<br />
+  この「アンカーポイント」や「ハンドル」を持つパスは、形状の修正が容易で、<br />
+  対象に対して正確な選択範囲を作成する上で、この形状修正が容易である点が非常に有利に働きます。</p>
+  <p><img src="images/6-6-2-01.gif" width="448" height="170" /></p>
+  <h4>ペンツールの基本操作</h4>
+  <p>では、実際に<em>[ペンツール]</em>を使用してパスを描画しましょう。<br />
+  Illustratorを使用した経験のある方は、基本的な操作は全く同じだと思ってください。</p>
+  <p>まずは<strong>新規ドキュメント</strong>を作成します。<br />
+  メニューバーの<em>[ファイル]-[新規]</em>を選択し、<br />
+  [新規ドキュメント]ダイアログボックスが表示されたら、<br />
+  <em>[プリセット]</em>に<strong>「Photoshop初期設定」</strong>を選択します。<br />
+  ※それ以外の設定は変更する必要はありません。</p>
+  <p><img src="images/4-2-5-01.gif" width="617" height="347" /></p>
+  <p><em>[ツールパネル]</em>から<em>[ペンツール]</em>を選択します。</p>
+  <p><img src="images/6-6-2-03.gif" alt="" width="135" height="131"/></p>
+  <p>コントロールパネルから<em>[パス]</em>モードを選択します。</p>
+  <p><img src="images/6-6-2-04.gif" alt="" width="383" height="131"/></p>
+  <h4>直線のパスを描画する</h4>
+  <p>まずは<strong>「直線」</strong>を描画します。<br />
+  下図を参考に、画像内を<span class="key">クリック</span>することで、<br />
+  クリックした箇所に<strong>アンカーポイント</strong>を置いた直線が描画されます。</p>
+  <p><img src="images/4-2-5-02.jpg" width="490" height="187" /></p>
+  <h4>直線を曲線に変更する</h4>
+  <p>続いて、描いた直線を曲線に修正します。<br />
+  <em>[ペンツール]</em>アイコンを長押しし、<em>[アンカーポイントの切り替えツール]</em>を選択します。</p>
+  <p><img src="images/4-2-5-03.jpg" width="267" height="216" /></p>
+  <p><em>[アンカーポイントの切り替えツール]</em>で、先ほど作成したパスの<br />
+  <strong>アンカーポイント上をドラッグ</strong>します。</p>
+  <p><img src="images/4-2-5-04.jpg" width="469" height="179" /></p>
+  <p>アンカーポイントから<strong>ハンドル</strong>と呼ばれる線が生成され、<br />
+  直線だったポイントが曲線に変化します。</p>
+  <p><img src="images/4-2-5-05.jpg" width="469" height="179" /></p>
+  <h4>曲線のパスを描画する</h4>
+  <p>では、今度は最初から曲線を描画します。<br />
+    ツールを<em>[ペンツール]</em>に戻し、下図を参考に<br />
+  アンカーポイントを置く場所で<strong>ドラッグしながらパスを描画</strong>することで<br />
+  アンカーポイントから<strong>ハンドル</strong>が生成され、曲線が描かれます。 </p>
+  <p><img src="images/4-2-5-06.gif" width="459" height="195" /></p>
+  <h4>アンカーポイントとハンドルの修正</h4>
+  <p>作成したパスのアンカーポイントとハンドルを修正します。</p>
+  <p><em>[ツールパネル]</em>の<em>[パスコンポーネント選択ツール]</em>を<span class="key">長押し</span>し、<br />
+  <em>[パス選択ツール]</em>に切り替えます。</p>
+  <p><img src="images/4-2-5-07.gif" width="273" height="143" /></p>
+  <p><em>[パス選択ツール]</em>はアンカーポイントやハンドルを個別に選択することができます。<br />
+    まず任意のアンカーポイントを1度クリックして選択し、<br />
+  ドラッグして位置を移動させてみましょう。</p>
+  <p><img src="images/4-2-5-08.gif" width="550" height="155" /></p>
+  <p>続いて、アンカーポイントから伸びる<strong>ハンドルの端点</strong>をドラッグして<br />
+  曲線の形状を修正してみましょう。</p>
+  <p><img src="images/4-2-5-09.gif" width="318" height="183" /></p>
+  <p>通常、ハンドルの端点は一方を動かすと、もう一方もシーソーのように付いて動きます。<br />
+    これをハンドルの端点を別々に動かしたい場合は、<br />
+  <em>[アンカーポイントの切り替えツール]</em>を使用します。</p>
+  <p><em>[アンカーポイントの切り替えツール]</em>を選択し、<br />
+  任意の曲線のハンドルの端点をドラッグして動かしましょう。<br />
+  片側のハンドルのみ動くことが分かります。</p>
+  <p><img src="images/4-2-5-10.gif" width="250" height="160" /></p>
+  <p>最後に、曲線を直線に修正する方法を確認します。<br />
+  <em>[アンカーポイントの切り替えツール]</em>で<strong>ハンドルを持つアンカーポイント</strong>を<span class="key">クリック</span>します。</p>
+  <p><img src="images/4-2-5-11.gif" width="250" height="160" /></p>
+  <p>アンカーポイントから伸びるハンドルが消えて、曲線が直線に変化します。</p>
+  <p><img src="images/4-2-5-12.gif" width="250" height="160" /></p>
+  <p>他に、<em>[アンカーポイントの追加ツール]</em>と<em>[アンカーポイントの削除]</em>ツールを使うことで、<br />
+  パス上にアンカーポイントを追加したり、不要なポイントを削除することができます。</p>
+  <p><img src="images/4-2-5-13.gif " width="275" height="161" /></p>
+  <p>以上でパスを描く際の基本操作は終了です。<br />
+  パスを描くのに必要な基本ツールをまとめてみます。</p>
+  <ul>
+    <li class="list_top1"><em>[ペンツール]</em>：<span class="key">クリック</span>しながら描くと<strong>直線</strong>、<span class="key">ドラッグ</span>しながら描くと<strong>曲線</strong>が描ける。</li>
+    <li class="list_top1"><em>[パス選択ツール]</em>：個別のアンカーポイントの位置やハンドルの長さを修正できる。</li>
+    <li class="list_top1"><em>[アンカーポイントの切り替えツール]</em>：下記の3つの機能を持つ。<br />
+      　・ハンドルの無いアンカーポイントをドラッグして<strong>ハンドルを生成</strong>する。<br />
+      　・曲線部のアンカーポイントをクリックして<strong>ハンドルを削除</strong>する。<br />
+    　・ハンドルの端点をドラッグして、<strong>片側のハンドルだけを動かす</strong>。 </li>
+  </ul>
+  <p>では、ファイルを閉じて次に進みます。</p>
+  <h4>パスを使って選択範囲を作成する</h4>
+  <p>今度は実際に画像を下絵にパスを描き、選択範囲を作成してみます。<br />
+  まずは素材フォルダ<strong>「PS04」</strong>から、素材ファイル<strong>4_2_5.psd</strong>を開きましょう。</p>
+  <p><strong></strong><img src="images/6-6-2-02.gif" width="632" height="421" /></p>
+  <p><em>[ツールパネル]</em>から<em>[ペンツール]</em>を選択します。</p>
+  <p><img src="images/6-6-2-03.gif" width="135" height="131"/></p>
+  <p>コントロールパネルから<em>[パス]</em>モードを選択します。</p>
+  <p><img src="images/6-6-2-04.gif" width="383" height="131"/></p>
+  <p>ペンツールで中央の花の輪郭線に沿ってパスを描画します。<br />
+  上手くパスを描くポイントは、一筆書きできれいに描こうと思わないことです。</p>
+  <p>下図のようにまず、大まかに直線のパスを作成します。</p>
+  <p><img src="images/4-2-5-14.jpg " width="371" height="274" /></p>
+  <p>次に<em>[アンカーポイントの切り替えツール]</em>や<em>[パス選択ツール]</em>、<br />
+    <em>[アンカーポイントの追加・削除ツール]</em>などを駆使して<br />
+  微調整を行い、対象をきれいに選択するほうが効率的です。</p>
+  <p><img src="images/4-2-5-15.jpg " width="371" height="274" /></p>
+  <p>花の形のパスが作成できたら、<br />
+  メニューバーの<em>[ウィンドウ]</em>-<em>[パス]</em>を選択し、<em>[パスパネル]</em>を表示します。</p>
+  <p>あらかじめ作成して用意していた<strong>「花パス」</strong>の他に、<br />
+  <strong>「作業用パス」</strong>という名前で表示されているパスが、今作成したパスになります。</p>
+  <p><img src="images/6-6-2-07.gif" width="245" height="163"/><br />
+  </p>
+  <h5><strong>作業用パス</strong>とは、パスパネルに<strong>一時的に表示される</strong>パスのアウトラインデータで、<br />
+  パスとしてはまだ<strong>保存されていません</strong>。<br />
+  保存せずに追加のパスを描画すると、以前の作業用パスは削除されます。<br />
+  パスを描画したら、必ず保存するようにしましょう。</h5>
+  <p>では、パスを保存します。<br />
+    ［パスパネル］の右上パネルメニューから、<em>［パスを保存］</em>を選択します。</p>
+  <p><img src="images/6-6-2-08.gif" width="428" height="170"/></p>
+  <p><em>[パスを保存]</em>ダイアログボックスが表示されます。<br />
+  名前を<strong>「花パス練習」</strong>と入力し、<em>[OK]</em>ボタンをクリックします。  </p>
+  <p><img src="images/6-6-2-08-1.gif" width="408" height="132" /></p>
+  <p>    パスが保存されます。</p>
+  <p>    <img src="images/6-6-2-09.gif" width="245" height="164"/></p>
+  <h4>パスを使用して選択範囲を作成する</h4>
+  <p>このファイルには、すでに<strong>「花パス」</strong>という名前でパスが保存されています。<br />
+  <em>[パスパネル]</em>から<strong>「花パス」</strong>を選択します。</p>
+  <p><img src="images/6-6-2-10.gif" width="244" height="162"/></p>
+  <p><em>[パスパネル]</em>右上のパネルメニューから、<em>[選択範囲を作成]</em>を選択します。</p>
+  <p><img src="images/6-6-2-11.gif" width="426" height="162"/></p>
+  <p><em>[選択範囲を作成]</em>ダイアログボックスが表示されます。</p>
+  <p><img src="images/6-6-2-11-1.gif" width="383" height="269" /></p>
+  <p><em>[ぼかし半径]</em>を<strong>《0px》</strong>と設定し、<em>[OK]</em>ボタンをクリックします。<br />
+    パスデータから選択範囲が作成されます。</p>
+  <p><img src="images/6-6-2-12.gif" width="632" height="419" /></p>
+  <p>パスを使った選択範囲の作成は、比較的エッジのはっきりした<br />
+    直線やスムーズな曲線の多い対象を選択する際に<br />
+  正確に選択範囲が作成できるため便利です。</p>
+  <p>選択範囲を作成する対象に合わせて、さまざまなツールを駆使して<br />
+  選択範囲を作成するようにしましょう。</p>
+   <h5><strong>ワンポイント</strong><br />
+    CS6以降は、
+    ツールパネルの<em>[ペンツール]</em>選択時、<br />
+    コントロールパネルからも<em>[選択範囲を作成]</em>ダイアログボックスを表示できるようになりました。<br />
+   <img src="images/6-6-2-13.gif" width="479" height="83" /> </h5>
+    
+    
+ <h4>この項のまとめ</h4>
+  <dl>
+    <dt>[ペンツール]を使ったパスの描画方法</dt>
+    <dd>・<em>[ペンツール]</em>で<span class="key">クリック</span>しながら描くと<strong>直線</strong>、<span class="key">ドラッグ</span>しながら描くと<strong>曲線</strong>が描ける。<br />
+    ・<em>[パス選択ツール]</em>で個別のアンカーポイントの位置やハンドルの長さを修正できる。<br />
+    ・<em>[アンカーポイントの切り替えツール]</em>は、<strong>ハンドルを生成</strong>する、<strong>ハンドルを削除</strong>する、<strong>片側のハンドルだけを動かす</strong>、という3つの機能を持つ。<br />
+    ・<em>[アンカーポイントの追加・削除ツール]</em>でパス上にポイントを追加したり、不要なポイントを削除できる。</dd>
+    <dt>[パスパネル]を利用した選択範囲の作成</dt>
+    <dd>・メニューバーの<em>[ウィンドウ]-[パス]</em>から<em>[パスパネル]</em>が表示できる。<br />
+    ・作成したパスは<strong>「作業用パス」</strong>として仮保存されるため、<strong>パネルメニュー</strong>より<em>[パスを保存]</em>を選び、パスを保存する。<br />
+    ・[パスパネル]に保存したパスを選択した状態で、<strong>パネルメニュー</strong>より<em>[選択範囲を作成]</em>を選び、パスから選択範囲を作成できる。</dd>
+  </dl>
+<p>以上でこの節の学習は終了です。<br />
+  ファイルは閉じて次の節へ進んでください。  </p>
+  <!-- InstanceEndEditable --></div>
+
+<div id="footer_area">
+Copyright &copy; 2013 <a href="http://www.winschool.jp" target="blanc">Winスクール</a>（ピーシーアシスト株式会社） All Rights Reserved.<br/>
+Copyright &copy; 2013 株式会社Win Labo. All Rights Reserved.
+</div> 
+  
+<!--<div class="ad_button" onclick="MM_effectBlind('side_area', 300, '100%', '0%', true)">  ＜情報スペース＞ <br />
+  表示/非表示は<br />
+ここをクリック</div>
+<br clear="right">
+<div id="side_area">
+<iframe src="http://www.winschool.jp/openschool/ad/dw_flash/side_area.html" width="140" height="800" scrolling="no" frameborder="0"></iframe>
+</div>-->
+</body>
+<!-- InstanceEnd --></html>

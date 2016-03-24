@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta name="author" content="uetani-m/horino-h/2010 pc assist" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Photoshop CC</title>
+<!-- InstanceEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script src="../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_effectBlind(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="container"> 
+   <h1><!-- InstanceBeginEditable name="ｈ1" -->第4章　選択範囲<!-- InstanceEndEditable --></h1>
+  <h2><!-- InstanceBeginEditable name="ｈ2" -->第2節　選択範囲の応用<!-- InstanceEndEditable --></h2>
+  <!-- InstanceBeginEditable name="contents" -->
+  <p>デジタル画像は、RGBやCMYKなどのカラーモードで構成されています。<br />
+   ここでは、それらのカラーモードで構成される<strong>チャンネルパネル</strong>を紹介し、<br />
+   <strong>チャンネル</strong>を使用した選択範囲の作成を説明します。 </p>
+  <h3>第1項　チャンネルパネルの使用 </h3>
+  
+  <h4>この項で学習する内容</h4>
+  <ul><li class="list_top1">Photoshopでの<strong>選択範囲の取り扱い</strong>について理解する。</li>
+    <li class="list_top1"><em>[チャンネルパネル]</em>を使った<strong>選択範囲の作成・保存・読み込み</strong>の方法を習得する。</li>
+  </ul>
+
+
+  <h4>チャンネルパネルとは</h4>
+  <p>RGBカラーモードに設定されている画像は、<br />
+  <strong>「レッド」「グリーン」「ブルー」</strong>の3色それぞれを混合してフルカラーを再現しています。</p>
+  <p>この項で学習する<em>[チャンネルパネル]</em>は<br />
+    その画像に使用されているRGBカラーのそれぞれの色の強さを<br />
+    白から黒への２階調のグラデーションで表しています。</p>
+  <p>素材フォルダ<strong>「PS04」</strong>から、素材ファイル<strong>4_2_1_01.psd</strong>を開きましょう。</p>
+  <p><img src="images/4-2-1-12.jpg" width="250" height="249" /></p>
+  <p>メニューバーの<em>[ウィンドウ]-[チャンネル]</em>を選択し、<em>[チャンネルパネル]</em>を表示します。</p>
+  <p><img src="images/4-2-1-13.jpg" width="242" height="226" /></p>
+  <p><strong>「レッド」チャンネル</strong>を選択し、表示を切り替えてみます。<br />
+    「レッド」チャンネルでは元の赤い円の場所だけが白く表示され、<br />
+それ以外が濃いグレーの表示になっています。  </p>
+  <p><img src="images/4-2-1-14.jpg" width="594" height="289" /></p>
+  <p>  他の2つのチャンネルも確認してみてください。</p>
+  <p><img src="images/4-2-1-15.jpg" width="600" height="368" /></p>
+  <p> 対応する各カラーの強さが強いほど白に、弱い箇所は黒と、<br />
+  2階調で表わされていることが分かります。 </p>
+  <p>確認ができたら<em>[チャンネルパネル]</em>の<strong>「RGB」</strong>をクリックし、元の表示に戻しましょう。</p>
+  <p><em>[チャンネルパネル]</em>は単に各カラーの状態を確認するためだけに利用するのではなく、<br />
+  一般的な利用用途としては、<strong> 選択範囲の作成・保存・管理</strong>などで利用されています。</p>
+  <p>このファイルは確認だけでの使用です。<br />
+  一旦閉じてください。</p>
+  <h4>選択範囲を保存する</h4>
+  <p>選択範囲を作成して何らかの加工を終えたのち、<br />
+  選択範囲を解除してしまうと、また修正が必要な場合は<br />
+  改めて選択範囲を作成しなおさなければなりません。<br />
+  そういうことが無いように、選択範囲を保存し呼び出す方法を習得しましょう。</p>
+  <p>素材フォルダ<strong>「PS04」</strong>から、素材ファイル<strong>4_2_1_02.psd</strong>を開きましょう。</p>
+  <p><img src="images/4-2-1-16.jpg" width="265" height="399" /></p>
+  <p><em>「ぼかし」</em>を<strong>《20px》</strong>に設定した<em>[長方形選択ツール]</em>で、<br />
+  任意の大きさの選択範囲を作成する。</p>
+  <p><img src="images/4-2-1-17.jpg" width="440" height="519" /></p>
+  <p>メニューバーの<em>[選択範囲]-[選択範囲を保存]</em>を選択し、<br />
+    <em>[選択範囲を保存]ダイアログボックス</em>で<em>[名前]</em>を<strong>「選択練習」</strong>にして保存します。<br />
+  ※それ以外の設定は変更しません。</p>
+  <p><img src="images/4-2-1-18.jpg" width="523" height="315" /></p>
+  <p><em>[チャンネルパネル]</em>を開き、保存した選択範囲<strong>「選択練習」</strong>が<br />
+  新しいチャンネルとして登録されていることを確認します。</p>
+  <p><img src="images/4-2-1-19.jpg" width="674" height="395" /></p>
+  <p>「RGB」チャンネルを選択して元の表示に戻し、<br />
+  一旦、作成した<strong>選択範囲は解除</strong>しておきます。</p>
+  <h5><strong>ワンポイント</strong><br />
+    [チャンネルパネル]の保存された選択範囲を確認すると分かりますが、<br />
+    Photoshop内では、<em>選択箇所</em>を<strong>「白」</strong>で、<em>選択箇所以外</em>を<strong>「黒」</strong>で表現しています。<br />
+    また<em>「ぼかし」</em>のかかった選択範囲については<strong>白から黒へのグラデーション</strong>で表現されます。<br />
+    この点については、次項以降で学習する機能でも関わってきますので、よく理解しておきましょう。</h5>
+  <h4>保存した選択範囲を読み込む</h4>
+  <p>先ほど保存した選択範囲を読み込みます。</p>
+  <p>    メニューバーの<em>[選択範囲]-[選択範囲を読み込む]</em>を選択し、<br />
+    <em>[選択範囲を読み込む]ダイアログボックス</em>で、<br />
+    [チャンネル]に先ほど保存した選択範囲<strong>「選択練習」</strong>を選択します。</p>
+  <p><img src="images/4-2-1-20.jpg" width="517" height="311" /></p>
+  <p>先ほど保存した選択範囲が再度、表示されます。</p>
+  <p><img src="images/4-2-1-21.jpg" width="396" height="425" /></p>
+  <p>ファイルは閉じずに、選択範囲は一旦解除します。</p>
+  <h5><strong>ワンポイント</strong><br />
+  [選択範囲を読み込む]ダイアログボックスで、同時に開いているファイルがあれば、<br />
+  <em>「ドキュメント」</em>から別ファイルを選択し、そのファイルの選択範囲を読み込むこともできます。<br />
+  <br />
+  また、既に選択範囲が存在している状態であれば、<br />
+選択範囲オプションで、選択範囲の追加や削除も可能です。<br />
+  <img src="images/4-2-1-22.jpg" width="517" height="311" /><br />
+  </h5>
+<h4>既存のカラーチャンネルから選択範囲を作る</h4>
+  <p><em>[チャンネルパネル]</em>に保存された<strong>選択範囲</strong>は、<br />
+  <strong>白から黒への2階調のグラデーション</strong>で表現されている点は理解できましたでしょうか。</p>
+  <p>この<strong>「白から黒へのグラデーション」</strong>という点を利用して、<br />
+  <em>[チャンネルパネル]</em>を使って新規選択範囲を作成することもできます。</p>
+  <p>ここでは素材ファイルの花の部分の選択範囲を作成してみましょう。<br />
+  まず<em>[チャンネルパネル]</em>を開き、<strong>「レッド」「グリーン」「ブルー」</strong>の各チャンネルを確認します。</p>
+<p><img src="images/4-2-1-23.jpg" width="450" height="199" /></p>
+  <p>今回は花の部分の選択範囲を作成したいので、<br />
+    それぞれのチャンネルで、花の部分が一番白く表示されるチャンネルが<br />
+  <strong>「レッド」チャンネル</strong>であることが分かります。</p>
+  <p><img src="images/4-2-1-24.jpg" width="265" height="397" /></p>
+  <p>この「レッド」チャンネルを複製して選択範囲に加工します。<br />
+    <strong>「レッド」チャンネル</strong>を選択し、パネル右上のパネルメニュー<img src="../img/panel_menu.gif" width="25" height="20" class="icon" />から<br />
+  <em>[チャンネルを複製]</em>を選択します。</p>
+  <p><img src="images/4-2-1-25.jpg" width="505" height="313" /></p>
+  <p><em>[チャンネルを複製]ダイアログボックス</em>が表示されますので、<br />
+  下記の設定で複製保存します。<br />
+  　<em>新規名称</em>：<strong>選択範囲（花）</strong><br />
+  　<em>ドキュメント</em>：<strong>4_2_1_02.psd</strong></p>
+  <p><img src="images/4-2-1-26.jpg" width="542" height="248" /></p>
+  <p>作成された「選択範囲（花）」は、白黒がはっきりした状態ではありません。<br />
+  もう少しコントラストがはっきりするように修正します。</p>
+  <p>一旦、<strong>「RGB」</strong>チャンネルを選択して通常の表示に戻し、<br />
+    複製したチャンネル<strong>「選択範囲（花）」</strong>を<span class="key">1回クリック</span>して選択した後、<br />
+    メニューバーの<em>[イメージ]-[色調補正]-[レベル補正]</em>を選択し、<br />
+  <em>[レベル補正]ダイアログボックス</em>を表示させます。</p>
+  <p><img src="images/4-2-1-27.jpg" width="443" height="386" /></p>
+  <h5>※[レベル補正]は画像の明るさとコントラストを調整する色調補正機能です。<br />
+    色調補正の詳細については第7章で学習します。<br />
+    ここでは指示通り設定してください。</h5>
+<p>[レベル補正]ダイアログボックスが表示されたら、<br />
+下図を参考に、<em>中央左側にある数値入力ボックス</em>を<strong>《100》</strong>に、<br />
+<em>中央右側にある数値入力ボックス</em>を<strong>《160》</strong>に設定します。</p>
+  <p><img src="images/4-2-1-28.jpg" width="442" height="385" /></p>
+  <p>これで花の部分が白く、それ以外が黒にコントラストがはっきりした画像になりました。</p>
+  <p><img src="images/4-2-1-29.jpg" width="265" height="398" /></p>
+  <p>花の中央にまだ少し黒い箇所がありますので、<br />
+  <em>描画色</em>を<strong>「白」</strong>にした<em>[ブラシツール]</em>で塗りつぶしておきます。</p>
+  <p><img src="images/4-2-1-30.jpg" width="265" height="398" /></p>
+  <p><em>[チャンネルパネル]</em>の<strong>「RGB」</strong>を選択し、元の表示に戻したら<br />
+  メニューバーの<em>[選択範囲]-[選択範囲を読み込む]</em>を選択し、<br />
+  作成した<strong>「選択範囲（花）」</strong>を読み込みましょう。</p>
+  <p><img src="images/4-2-1-31.jpg" width="513" height="308" /></p>
+  <p>    [チャンネルパネル]から選択範囲が作成できました。</p>
+<p><img src="images/4-2-1-32.jpg" width="391" height="440" /></p>
+  <p>今回の練習のように、この後の第7章で学習する色調補正などとも組み合わせることで、<br />
+  マウスで画像をなぞることなく選択範囲を作成することもできます。</p>
+  <p>ファイルは閉じずに、選択範囲を解除します。</p>
+  <h4>新規チャンネルで選択範囲を作成する</h4>
+  <p>既存のカラーチャンネルを複製して選択範囲を作成する以外に、<br />
+  黒一色の新しいチャンネルを作成し、選択範囲を作成することもできます。</p>
+  <p>まず、<em>[チャンネルパネル]</em>のパネル右上のパネルメニュー<img src="../img/panel_menu.gif" alt="" width="25" height="20" class="icon" />から<br />
+  <em>[新規チャンネル]</em>を選択します。</p>
+  <p><img src="images/4-2-1-33.jpg" width="507" height="313" /></p>
+  <p><em>[新規チャンネル]ダイアログボックス</em>で、チャンネル名が設定できます。<br />
+  今回は名前を変えずに<strong>「アルファチャンネル１」</strong>のままで新規チャンネルを作成します。</p>
+  <p><img src="images/4-2-1-34.jpg" width="467" height="276" /></p>
+  <p>作成された<strong>「アルファチャンネル１」</strong>を選択して<br />
+    <em>描画色</em>を<strong>「白」</strong>にした<em>[ブラシツール]</em>で画像内を適当に描画します。<br />
+  ※ブラシの直径などは任意で設定してかまいません。</p>
+  <p><img src="images/4-2-1-35.jpg" width="266" height="399" /></p>
+  <p>描画ができたら<em>[チャンネルパネル]</em>の<strong>「RGB」</strong>を選択して通常の表示に戻し、<br />
+  メニューバーの<em>[選択範囲]-[選択範囲を読み込む]</em>から<br />
+  作成した選択範囲<strong>「アルファチャンネル１」</strong>を読み込みます。</p>
+  <p><img src="images/4-2-1-36.jpg" width="266" height="399" /></p>
+  <p>ブラシのストロークなどを生かした選択範囲が必要な場合は、<br />
+  このような方法で選択範囲を作成できます。</p>
+  <h4>この項のまとめ</h4>
+  <dl>
+    <dt>[チャンネルパネル]とは</dt>
+    <dd>・画像で使用される各カラーチャンネルの色の強さを確認できるパネル。<br />
+    ・主に<strong>選択範囲の作成・保存・管理</strong>を行うために使用される。</dd>
+    <dt>選択範囲の保存と読み込み方法</dt>
+    <dd>・選択範囲を作成し、メニューバーの<em>[選択範囲]-[選択範囲を保存]</em>で名前を付けて保存できる。<br />
+    ・保存された選択範囲は[チャンネルパネル]内に新規チャンネルとして登録されている。<br />
+    ・保存した選択範囲は、メニューバーの<em>[選択範囲]-[選択範囲を読み込む]</em>から読み込みできる。</dd>
+    <dt>[チャンネルパネル]内の選択範囲</dt>
+    <dd>・保存された選択範囲は[チャンネルパネル]内で、<em>選択箇所</em>は<strong>「白」</strong>に、<em>選択箇所以外</em>は<strong>「黒」</strong>の2階調のグラデーションで表現されている。<br />
+    ・白から黒へのグラデーションという特徴を生かして、[チャンネルパネル]で既存のカラーチャンネルから新たに選択範囲を作成できる。<br />
+    ・新規チャンネルを作成することで、描画色を「白」にした[ブラシツール]などのストロークを生かした選択範囲が作成できる。</dd>
+  </dl>
+<p>以上でこの項の学習は終了です。<br />
+  ファイルは閉じて次の項へ進んでください。  </p>
+  <!-- InstanceEndEditable --></div>
+
+<div id="footer_area">
+Copyright &copy; 2013 <a href="http://www.winschool.jp" target="blanc">Winスクール</a>（ピーシーアシスト株式会社） All Rights Reserved.<br/>
+Copyright &copy; 2013 株式会社Win Labo. All Rights Reserved.
+</div> 
+  
+<!--<div class="ad_button" onclick="MM_effectBlind('side_area', 300, '100%', '0%', true)">  ＜情報スペース＞ <br />
+  表示/非表示は<br />
+ここをクリック</div>
+<br clear="right">
+<div id="side_area">
+<iframe src="http://www.winschool.jp/openschool/ad/dw_flash/side_area.html" width="140" height="800" scrolling="no" frameborder="0"></iframe>
+</div>-->
+</body>
+<!-- InstanceEnd --></html>
